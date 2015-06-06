@@ -1,0 +1,1 @@
+Pequeña app que calcula un numero aleatorio e indica si es mayor o menor que 0.5
