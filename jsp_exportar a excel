@@ -1,0 +1,29 @@
+http://www.technicalkeeda.com/java/export-to-excel-using-servlet-and-jsp
+https://www.youtube.com/watch?v=DygcMVEHX_0
+<input type="button" value ="Exportar a Excel" name="btn_Excel" onclick="aExcel()" >
+
+<script>
+  function aExcel()
+    { 
+         vExcel= window.open("excel.jsp?parametros...","","status=0,toolbar=0,location=0,menubar=0,resizable=0,width=400,height=200");
+    }
+  </script>
+
+  response.setHeader("Content-Disposition", "attachment;filename=\"miExcel.xls\"")
+
+  response.setContentType("application/vnd.ms-excel");
+response.setHeader("Content-Disposition", "attachment; filename=filename.xls");
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+ 	<head>
+ 		<meta http-equiv="Content-Type" content ="text/html, charset=UTF-8">
+ 		<title> JSP lo qe sea </title>
+ 	</head>
+ 	<body>
+ 		<h1> Datos exportados </h1>
+
+ 	</body>
+ </html>
+
