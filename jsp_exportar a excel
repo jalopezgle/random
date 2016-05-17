@@ -1,3 +1,8 @@
+<script type="text/javascript" src="js/scripts.js"></script>
+
+<a href="javascript:changeCSS('style_hight.css');">Alto Contraste</a></li> 
+
+
 http://www.technicalkeeda.com/java/export-to-excel-using-servlet-and-jsp
 https://www.youtube.com/watch?v=DygcMVEHX_0
 <input type="button" value ="Exportar a Excel" name="btn_Excel" onclick="aExcel()" >
